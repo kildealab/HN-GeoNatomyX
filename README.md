@@ -1,5 +1,7 @@
 # HNGeoNatomyX Tool
-A Python script for calculating geometrical metrics from the 3D and 2D shape of Head and Neck Cancer patients taken from planning CTs or simulation CTs (CT sims) and Cone Beam CTs (CBCTs) taken during the radiotherapy treatment. This code has been tested on data exported from Eclipse versions 15 and 18. This repository also contains semi-automatic contouring tool for the treatment mask (immobilization device used during the radiotherapy treatment).
+A Python script for calculating geometrical metrics from the 3D and 2D shape of Head and Neck Cancer patients taken from planning CTs or simulation CTs (CT sims) and Cone Beam CTs (CBCTs) taken during the radiotherapy treatment. This code has been tested on data exported from Eclipse versions 15 and 18. This repository also contains a semi-automatic contouring tool for the treatment mask (immobilization device used during the radiotherapy treatment).
+
+Part of the Jupyter notebooks may be commented with some *Spanglish*!
 
 ## Table of Contents
   *  [Authors](#Authors)
