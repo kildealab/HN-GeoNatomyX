@@ -756,7 +756,7 @@ def get_area(body_slice,start_x2,start_y2,pixel_spacing2):
     ctr = np.array(slicee).reshape((-1,1,2)).astype(np.int32)
     mask = np.zeros((800,800), np.uint8)
     cv2.fillPoly(mask,pts=ctr,color=(255,255,255))
-    dilated = dilation(mask2, disk(1))
+    dilated = cv2.dilate(mask, disk(1))
     ret, thresh = cv2.threshold(dilated,0, 255, cv2.THRESH_BINARY)
     
     contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
